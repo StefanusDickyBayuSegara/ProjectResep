@@ -10,7 +10,3 @@ Route::get('/', function () {
 Route::get('/standby', function () {
     return view('Standby');
 });
-
-Route::get('/Sing-up', function () {
-    return view('Sing-up');
-});
